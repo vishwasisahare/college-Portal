@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Welcome to college portal</h1>
+        <h2>${param.msg}</h2>
+        <h2><a href="login.jsp?msg=logout success">logout</a></h2>
+        <h2><a href="addstudent.jsp">add new student</a></h2>
+        <h2><a href="showStudent.jsp">Show student</a></h2>
+    </body>
+</html>
+
